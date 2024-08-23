@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 function App() {
   const [color, setColor] = useState("olive");
@@ -9,7 +8,7 @@ function App() {
       className="h-screen w-full flex items-end justify-center"
       style={{ backgroundColor: color }}
     >
-      <div className="bg-gray-300 flex gap-4 p-4 rounded-xl relative mb-4">
+      <div className="bg-white flex gap-4 p-4 rounded-xl relative mb-4 shadow-lg">
         <button
           onClick={() => {
             setColor("black");
@@ -22,9 +21,9 @@ function App() {
           onClick={() => {
             setColor("blue");
           }}
-          className="bg-blue-500 text-white shadow-lg"
+          className="bg-blue-700 text-white shadow-lg"
         >
-          Sky
+          Blue
         </button>
         <button
           onClick={() => {
@@ -54,7 +53,7 @@ function App() {
           onClick={() => {
             setColor("pink");
           }}
-          className="bg-pink-500 text-white shadow-lg"
+          className="bg-pink-300 text-white shadow-lg"
         >
           Pink
         </button>
