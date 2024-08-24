@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="w-full h-screen flex flex-col items-center bg-green-500">
-      <div className="max-w-md bg-teal-700 mt-4 p-4 rounded-lg">
+      <div className="min-w-fit bg-teal-700 mt-10 p-4 rounded-lg">
         <div className="mb-2">
           <h1 className="text-2xl text-center">Password Generator</h1>
         </div>
